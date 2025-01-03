@@ -2,9 +2,8 @@ import React from 'react';
 
 const Presentation1 = () => {
     return (
-        <div>
-            <h1>Welcome to Presentation1</h1>
-            <p>This is a sample presentation component.</p>
+        <div className="flex justify-center my-20">
+            <img src="..\img\profile1.jpg" alt="profile" className='rounded-full w-1/2 h-1/2 border-4 border-sky-400'/>
         </div>
     );
 };
