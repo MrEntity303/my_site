@@ -7,10 +7,10 @@ const NavBar = () => {
       </div>
       <ul className="flex justify-end p-4 text-white text-xl space-x-14">
         <li><a href="#home" className="focus:text-sky-400">Home</a></li>
-        <li><a href="#about" className="focus:text-sky-400">About</a></li>
-        <li><a href="#exp" className="focus:text-sky-400">Experience</a></li>
+        <li><a href="#about" className="focus:text-sky-400">Chi sono</a></li>
+        <li><a href="#exp" className="focus:text-sky-400">Esperienze</a></li>
         <li><a href="#tech-skills" className="focus:text-sky-400">Skills</a></li>
-        <li><a href="#projects" className="focus:text-sky-400">Projects</a></li>
+        <li><a href="#projects" className="focus:text-sky-400">Progetti</a></li>
         <li><a href="#links" className="focus:text-sky-400">Links</a></li>
       </ul>
     </nav>
