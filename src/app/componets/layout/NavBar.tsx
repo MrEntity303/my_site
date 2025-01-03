@@ -1,4 +1,3 @@
-import ProgressBar from "./ProgressBar";
 const NavBar = () => {
     return (
       <nav className="bg-customGray topbar-fixed flex justify-between items-center">
