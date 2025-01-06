@@ -8,9 +8,7 @@ export default function Home() {
     <div>
       <NavBar />
       {/* <ProgressBar /> */}
-      <div className="flex justify-center items-center pt-16 lg:h-screen">
-        <Presentation />
-      </div>
+      <Presentation />
       <About />
     </div>    
   );
