@@ -1,13 +1,17 @@
 // import ProgressBar from "./componets/layout/ProgressBar";
 import NavBar from "./componets/layout/NavBar";
 import Presentation from "./componets/layout/Presentation";
+import About from "./componets/layout/About";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-screen scroll-m-2">
-        <NavBar />
-        {/* <ProgressBar /> */}
-        <div><Presentation /></div>
+    <div>
+      <NavBar />
+      {/* <ProgressBar /> */}
+      <div className="flex justify-center items-center pt-16 lg:h-screen">
+        <Presentation />
+      </div>
+      <About />
     </div>    
   );
 }
