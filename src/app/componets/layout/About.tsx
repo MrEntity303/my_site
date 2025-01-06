@@ -20,10 +20,10 @@ const About = () => {
                 </p>
             </span>
             <div id="cards" className="grid justify-center items-center pt-5">
-              <div className="flex flex-col items-center bg-grayCard rounded-3xl w-48 h-40 p-3">
+              <div className="flex flex-col items-center p-3 bg-grayCard rounded-3xl w-56">
                 <h2 className="text-2xl font-bold text-sky-500">AutoCad</h2>
-                <p className="pt-5 pb-5">Modellazione 2D/3D</p>
-                <button className="justify-center border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray p-1">Visualizza</button>
+                <p className="pt-3 pb-3">Modellazione 2D/3D</p>
+                <button className="justify-center border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray">Visualizza</button>
               </div>
             </div>
     </section>
