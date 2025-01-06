@@ -2,7 +2,7 @@ import React from 'react';
 
 const Presentation = () => {
     return (
-<main className=" flex flex-col-reverse lg:flex-row justify-center items-center h-screen">
+<main className=" flex flex-col-reverse lg:flex-row justify-center items-center">
   <div className="flex w-full lg:w-1/2 justify-center items-center">
     <div className="text-center p-3">
       <div className="flex justify-center items-center space-x-2">
