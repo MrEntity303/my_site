@@ -5,7 +5,7 @@ const About = () => {
             <span className="text-xl flex flex-col justify-center items-center  
                           text-gray-500 text-center">
                 <p className="w-1/2 hover:text-white transition duration-300">Sono <span className="text-sky-400">Patryk</span>, un ragazzo di 25 
-                    anni appazionato di tecnologia e programmazione.
+                    anni appassionato di tecnologia e programmazione.
                     Mi piace creare soluzioni ad uso personale e a volte su commisione con l'obbiettivo di 
                     facilitare l'attivita quotidiane. Nel tempo
                     libero amo rilassarmi a contatto con la natura facendo escursioni.
