@@ -45,8 +45,8 @@ const Presentation = () => {
   <a href="#about" className={`absolute bottom-4 flex flex-col justify-center items-center transition-opacity duration-300 ${
           isScrolling ? 'hidden' : 'block'
         }`}>
-    <span className="text-2xl animate-pulseGrow">👇</span>
-    <span>Scroll Down</span>
+    <span className="hidden lg:flex text-2xl animate-pulseGrow">👇</span>
+    <span className='hidden lg:flex'>Scroll Down</span>
   </a>
 </main>
 
