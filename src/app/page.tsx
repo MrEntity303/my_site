@@ -3,6 +3,7 @@ import About from "./pages/about/page";
 import Experience from "./pages/experience/page";
 import Presentation from "./pages/presentation/page";
 import ProjectsPage from "./pages/projects/page";
+import LinkPage from "./pages/link/page";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Experience /> 
       <Skills />
       <ProjectsPage />
+      <LinkPage />
     </div>
   );
 }
