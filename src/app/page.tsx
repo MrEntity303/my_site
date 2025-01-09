@@ -1,14 +1,15 @@
-import NavBar from "./componets/layout/NavBar";
-import Presentation from "./componets/layout/Presentation";
-import About from "./componets/layout/About";
-import Experience from "./componets/layout/Experience";
+import Skills from "./pages/skills/page";
+import About from "./pages/about/page";
+import Experience from "./pages/experience/page";
+import Presentation from "./pages/presentation/page";
+
 export default function Home() {
   return (
-    <div >
-      <NavBar />
+    <div>
       <Presentation />
       <About />
-      <Experience />
-    </div>    
+      <Experience /> 
+      <Skills />
+    </div>
   );
 }

@@ -1,8 +1,8 @@
 const Experience = () => {
     return (
-        <section id="exp" className="h-screen">
+        <section id="exp" className="min-h-screen">
             <h1 className="flex justify-center text-4xl font-bold pt-24">Experience</h1>
-            <div className="flex flex-col justify-center items-center pt-3">
+            <div className="flex flex-col justify-start items-center pt-3">
                 <div className="flex flex-col 2xl:flex-row 2xl:grid-row-1 2xl:grid-cols-2 w-3/4 bg-grayCard rounded-2xl p-5 my-5">
                     <div className="flex flex-col 2xl:w-1/4 justify-center items-center">
                         <img className="w-36" src="..\img\Logo_unicam.png" alt="logo_unicam" />

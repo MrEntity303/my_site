@@ -1,6 +1,6 @@
 const Skills = () => {
     return (
-        <section id="tech-skills" className="flex flex-col justify-between">
+        <section id="tech-skills" className="flex flex-col justify-start min-h-screen">
             <h1 className="text-4xl flex flex-col justify-center items-center">Skills</h1>
             <div className="grid grid-flow-col-dense gap-4 pt-5">
 
