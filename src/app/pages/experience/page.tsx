@@ -5,12 +5,12 @@ const Experience = () => {
             <div className="flex flex-col justify-start items-center pt-3">
                 <div className="flex flex-col 2xl:flex-row 2xl:grid-row-1 2xl:grid-cols-2 w-3/4 bg-grayCard rounded-2xl p-5 my-5">
                     <div className="flex flex-col 2xl:w-1/4 justify-center items-center">
-                        <img className="w-36" src="..\img\Logo_unicam.png" alt="logo_unicam" />
+                        <img className="w-24 sm:w-36" src="..\img\Logo_unicam.png" alt="logo_unicam" />
                     </div>
                     <div className="flex flex-col 2xl:w-3/4 2xl:justify-start 2xl:items-start justify-center items-center pt-3">
-                        <h1 className="text-4xl text-sky-400 font-bold">Settembre 2022- Aprile 2025</h1>
+                        <h1 className="text-xl 2xl:text-4xl text-sky-400 font-bold">Settembre 2022- Aprile 2025</h1>
                         <h2 className="text-lg font-bold">Studente dell'Universita' di Camerino</h2>
-                        <p className="text-justify mx-16 2xl:mx-0 2xl:text-start pb-3 2xl:text-lg">Corso di Laurea in <span className="text-sky-400">Scienze e Tecnologie Informatiche (L-31). </span>Durante questo percorso ho sviluppato 
+                        <p className="text-justify lg:mx-16 2xl:mx-0 2xl:text-start pb-3 2xl:text-lg">Corso di Laurea in <span className="text-sky-400">Scienze e Tecnologie Informatiche (L-31). </span>Durante questo percorso ho sviluppato 
                         diverse <span className="text-sky-400">skills </span>in diversi linguaggi di programmazione e processi di un sviluppo software dalla sua concezione
                         fino alla effettiva produzione. I progetti principali a cui ho potuto dare il mio contributo sono stati il 
                         progetto <span className="text-sky-400">SAFE (Sistema IoT Soccorso e Monitoraggio Ambienti)</span> e <span className="text-sky-400">RevGames (Sito Recensione 
@@ -20,12 +20,12 @@ const Experience = () => {
                 </div>
                 <div className="flex flex-col justify-between 2xl:flex-row 2xl:grid-row-1 2xl:grid-cols-2 w-3/4 bg-grayCard rounded-2xl p-5">
                     <div className="flex flex-col 2xl:w-1/4 justify-center items-center">
-                        <img className="bg-white w-36 rounded-2xl p-2" src="..\img\logo_512x512.png" alt="logo_unicam" />
+                        <img className="bg-white w-24 sm:w-36 rounded-2xl p-2" src="..\img\logo_512x512.png" alt="logo_unicam" />
                     </div>
                     <div className="flex flex-col 2xl:w-3/4 2xl:justify-start 2xl:items-start justify-center items-center pt-3">
-                        <h1 className="text-4xl text-sky-400 font-bold">Gennaio 2025 - In Corso</h1>
+                        <h1 className="text-xl 2xl:text-4xl text-sky-400 font-bold">Gennaio 2025 - In Corso</h1>
                         <h2 className="text-lg font-bold">Stagista</h2>
-                        <p className="text-justify mx-16 2xl:mx-0 2xl:text-start pb-3 2xl:text-lg">Stage curricolare per conto dell'Universita' di Camerino con l'obbiettivo raccolta ed uso di dataset per l'ottimizzazione di un macchinario industriale attraverso algoritmi di Intelligenza Artificiale.<br></br>
+                        <p className="text-justify lg:mx-16 2xl:mx-0 2xl:text-start pb-3 2xl:text-lg">Stage curricolare per conto dell'Universita' di Camerino con l'obbiettivo raccolta ed uso di dataset per l'ottimizzazione di un macchinario industriale attraverso algoritmi di Intelligenza Artificiale.<br></br>
                             -<span className="text-sky-400"> Raccolta dati</span> da un macchinario industriale durante il processo produttivo<br></br>
                             - Applicazione di tecniche di <span className="text-sky-400">analisi</span> e <span className="text-sky-400">correlazione dei dati raccolti</span>.<br></br>
                             - Applicazione di algoritmi di intelligenza artificiale per l'ottimizzazione: <span className="text-sky-400">Reti neurali (ad esempio, per la previsione di 
