@@ -4,6 +4,7 @@ import Experience from "./pages/experience/page";
 import Presentation from "./pages/presentation/page";
 import ProjectsPage from "./pages/projects/page";
 import LinkPage from "./pages/link/page";
+import Footer from "./ui/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <ProjectsPage />
       <LinkPage />
+      <Footer />
     </div>
   );
 }
