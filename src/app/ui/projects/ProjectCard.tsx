@@ -31,8 +31,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, skills, description, i
                     </div>
                 ) : (
                     <div className='flex flex-row justify-between'>
-                    <span className='border-4 rounded-full p-1 my-2 text-green-600 border-green-600'>open-source</span>
-                    <a href={sourceUrl} className='flex flex-row border-4 rounded-full p-1 my-2'>
+                    <span className='flex justify-center items-center border-2 rounded-full p-1 my-2 text-green-600 border-green-600'>open-source</span>
+                    <a href={sourceUrl} className='flex justify-center items-center flex-row border-2 rounded-full p-1 my-2'>
                         Source <img src="https://img.icons8.com/?size=100&id=60664&format=png&color=FFFFFF" alt="source_icon" className='w-5 h-5' />
                     </a>
                     </div>
