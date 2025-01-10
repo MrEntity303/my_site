@@ -3,7 +3,7 @@ import skillsData from "@/ui/skills/skillsData";
 const Skills = () => {
   return (
     <section id="tech-skills" className="min-h-screen flex justify-center items-center flex-col">
-      <h1 className="text-3xl font-bold text-center p-8">Skills</h1>
+      <h1 className="text-3xl font-bold text-gray-300 text-center p-8">Skills</h1>
       <div className="flex flex-wrap justify-center gap-4 xl:px-64">
         {skillsData.map((skill, index) => (
           <div
@@ -13,7 +13,7 @@ const Skills = () => {
             <div className="flex justify-center items-center w-10 h-10 group-hover:scale-125 transition-transform duration-300">
               <img src={skill.imgSrc} alt={skill.name} />
             </div>
-            <span className="mt-2 text-sm font-medium group-hover:text-black">{skill.name}</span>
+            <span className="mt-2 text-sm font-medium group-hover:text-black text-gray-300">{skill.name}</span>
           </div>
         ))}
       </div>
