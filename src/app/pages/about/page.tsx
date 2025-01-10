@@ -23,7 +23,7 @@ const About = () => {
                 <div className="flex flex-col items-center p-3 bg-grayCard rounded-3xl w-56 2xl:w-72">
                   <h2 className="text-2xl 2xl:text-4xl font-bold text-sky-500">AutoCad</h2>
                   <p className="pt-3 pb-3 2xl:text-xl">Modellazione 2D/3D</p>
-                  <button className="border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray p-1 2xl:p-2 2xl:text-lg">Visualizza</button>
+                  <a href="../dowload_resource/tecna_evolution.pdf"><button className="border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray p-1 2xl:p-2 2xl:text-lg">Visualizza</button></a>
                 </div>
               </div>
       </section>

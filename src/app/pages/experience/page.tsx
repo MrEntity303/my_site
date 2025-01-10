@@ -15,7 +15,7 @@ const Experience = () => {
                         fino alla effettiva produzione. I progetti principali a cui ho potuto dare il mio contributo sono stati il 
                         progetto <span className="text-sky-400">SAFE (Sistema IoT Soccorso e Monitoraggio Ambienti)</span> e <span className="text-sky-400">RevGames (Sito Recensione 
                         Videogame)</span> per ulteriori informazioni sui vari progetti sotto c'e' il collegamento al <span className="text-sky-400">Github</span>.</p>
-                        <button className="border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray p-3">Github</button>
+                        <a href="https://github.com/MrEntity303"><button className="border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray p-3">Github</button></a>
                     </div>
                 </div>
                 <div className="flex flex-col justify-between 2xl:flex-row 2xl:grid-row-1 2xl:grid-cols-2 w-3/4 bg-grayCard rounded-2xl p-5">
@@ -32,7 +32,7 @@ const Experience = () => {
                                 parametri chiave)</span>, <span className="text-sky-400">Algoritmi di clustering (per segmentare i dati e identificare pattern ricorrenti)</span>.<br></br>
                             - Applicazione di tecniche di validare i risultati attraverso <span className="text-sky-400">simulazioni e/o test su dati reali</span>.<br></br>
                         </p>
-                        <button className="border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray p-3">Link</button>
+                        <a href="https://www.eeng.it/"><button className="border-2 border-white rounded-full font-bold hover:bg-white hover:text-black bg-customGray p-3">Link</button></a>
                     </div>
                 </div>
             </div>
