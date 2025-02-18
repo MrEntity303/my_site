@@ -19,12 +19,21 @@ const About = () => {
                     proposti.
                   </p>
               </span>
-              <div id="cards" className="grid justify-center items-center pt-5 2xl:pt-10">
+              <div className="flex flex-wrap justify-center gap-4 xl:px-64 pt-10">
+              <div id="cards" className="">
                 <div className="flex flex-col items-center p-3 bg-grayCard rounded-3xl w-56 2xl:w-72">
                   <h2 className="text-2xl 2xl:text-4xl font-bold text-sky-500">AutoCad</h2>
                   <p className="pt-3 pb-3 2xl:text-xl text-gray-300">Modellazione 2D/3D</p>
                   <a href="../dowload_resource/tecna_evolution.pdf"><button className="border-2 rounded-full font-bold hover:bg-white hover:text-black bg-customGray text-gray-300 p-1 2xl:p-2 2xl:text-lg">Visualizza</button></a>
                 </div>
+              </div>
+              <div id="cards" className="">
+                <div className="flex flex-col items-center p-3 bg-grayCard rounded-3xl w-56 2xl:w-72">
+                  <h2 className="text-2xl 2xl:text-4xl font-bold text-sky-500">DevOps Azure</h2>
+                  <p className="pt-3 pb-3 2xl:text-xl text-gray-300">Microsoft</p>
+                  <button className="border-2 rounded-full font-bold hover:bg-white hover:text-black bg-customGray text-gray-300 p-1 2xl:p-2 2xl:text-lg">In Corso</button>
+                </div>
+              </div>
               </div>
       </section>
     );
