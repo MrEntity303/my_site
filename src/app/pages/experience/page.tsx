@@ -8,7 +8,7 @@ const Experience = () => {
                         <img className="w-24 sm:w-36" src="..\img\Logo_unicam.png" alt="logo_unicam" />
                     </div>
                     <div className="flex flex-col 2xl:w-3/4 2xl:justify-start 2xl:items-start justify-center items-center pt-3">
-                        <h1 className="text-xl xl:text-4xl text-sky-400 font-bold">Settembre 2022- Aprile 2025</h1>
+                        <h1 className="text-xl xl:text-4xl text-sky-400 font-bold">Settembre 2022- Luglio 2025</h1>
                         <h2 className="text-lg text-gray-300 font-bold">Studente dell'Universita' di Camerino</h2>
                         <p className="text-justify text-gray-300 lg:mx-16 2xl:mx-0 2xl:text-start pb-3 2xl:text-lg">Corso di Laurea in <span className="text-sky-400">Scienze e Tecnologie Informatiche (L-31). </span>Durante questo percorso ho sviluppato 
                         diverse <span className="text-sky-400">skills </span>in diversi linguaggi di programmazione e processi di un sviluppo software dalla sua concezione
